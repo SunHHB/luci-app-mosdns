@@ -3,7 +3,7 @@ name: Build
 on:
   push:
     tags:
-      - v3.**
+      - v5.**
 env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
   
